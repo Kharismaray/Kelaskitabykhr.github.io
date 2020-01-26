@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resCarousel.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/card-horizontal.css">
+    <link rel="stylesheet" href="css/carousel-split.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <title>KelasKita | Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#"><img src="img/logo-kelaskita.png" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Kategori
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <form class="form-inline">
+                        <input class="form-control search" type="search" placeholder="Ingin belajar apa?"
+                            aria-label="Search">
+                    </form>
+                    <li class="nav-item item-a">
+                        <a class="nav-link" href="#">Menjadi Pengajar</a>
+                    </li>
+                    <li class="nav-item item-b">
+                        <a class="nav-link" href="#">Diskusi</a>
+                    </li>
+                    <li class="nav-item item-c">
+                        <button type="button" class="btn btn-outline-info">Masuk</button>
+                    </li>
+                    <li class="nav-item item-d">
+                        <button type="button" class="btn btn-info">Daftar</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- awal header -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container container-jumbotron">
+            <p class="text1">HANYA DISINI</p>
+            <p class="text2">Belajar ga harus ganggu jam nongkrong</p>
+            <p class="text3">Tingkatkan pengetahuan dan skill di waktu luangmu, dimana saja,
+                <br> semudah menggerakan telunjuk.</p>
+        </div>
+    </div>
+    <!-- akhir header -->
+
+    <!-- awal rectangle -->
+    <div class="container rectangle">
+        <p class="rectangle-text1">Topik apa yang menarik minatmu?</p>
+        <p class="rectangle-text2">Pilih 3 topik agar kami dapat merekomendasikan kelas yang sesuai</p>
+        <div class="container">
+            <div class="checkbox">
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="1">
+                        IT dan Software
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="2">
+                        Seni dan Desain
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="3">
+                        Bahasa
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="4">
+                        Bisnis dan Marketing
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="5">
+                        Pengembangan Diri
+                    </label>
+                </div>
+                <br>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="5">
+                        Hobi dan Gaya Hidup
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="5">
+                        Agama
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="5">
+                        Persiapan Ujian
+                    </label>
+                </div>
+                <div id="ck-button">
+                    <label>
+                        <input class="btn-checkbox" type="checkbox" value="5">
+                        Akademik
+                    </label>
+                </div>
+            </div>
+            <input type='button' class="btn btn-outline-primary btn-carikelas" value='CARI KELAS' onclick='check();' />
+        </div>
+    </div>
+    <!-- akhir rectangle -->
+
+
+
+    <!-- awal slider -->
+    <div class="col-5" style="display:inline;">
+        <div class="rectangle2">
+            <p class="title-rectangle2">PALING BANYAK <br> DIPELAJARI</p>
+            <img class="image-rectangle2" src="img/rectangle2-img.png">
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-outline-secondary btn-rectangle2">LIHAT SEMUA KELAS</button>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="container slide-container">
+
+            <div class="resCarousel" data-items="1-2-1-4" data-interval="2000" data-slide="1.5" data-animator="lazy">
+                <i class='leftRs'><i class="fa fa-angle-left"></i></i>
+                <i class='rightRs'><i class="fa fa-angle-right"></i></i>
+                <div class="resCarousel-inner">
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Sawadikap Skidipapap</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Membuat Vlog Ala Ala Supaya Dikagumi Netijen</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class=" card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Terarium For Anak Sultan</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cara Membuat Suara Melengking</h5>
+                                    <p class="card-text">VIDY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cara Menjadi ATEAM</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cara Menjadi Tim Bapau</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cara Merubah Sikap Menjadi Skuy Living</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="tile">
+                            <div class="card">
+                                <img src="img/slider-img-1.jpg" class="card-img-top" alt="...">
+                                <a href="#" class="container-bookmark">
+                                    <i class="fa fa-bookmark"></i>
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cara Menjadi Nakal Tapi Tampan</h5>
+                                    <p class="card-text">VICY ADHA</p>
+                                    <i class="card-rate">
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </i>
+                                    <strike class="card-price-strecth">300.000</strike>
+                                    <p class="card-price">150.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- akhir slider -->
+
+    <!-- awal carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/carousel-img-1.jpg" class="d-block w-110" alt="...">
+                    </div>
+                    <div class="col-8 carousel-text-part">
+                        <p class="title-text-carousel">SPESIAL UNTUK KAMU</p>
+                        <p class="content-text-carousel">Belajar di Kelas Investasi Reksadana,<br>
+                            dapatkan diskon pembelian saham <br>
+                            hingga 20% wow</p>
+                        <p class="footer-text-carousel">Cuan Cuan Consultant</p>
+                        <p class="inform-text-carousel">Kode Voucher</p>
+                        <button type="button" class="btn btn-outline-warning btn-text-carousel">BELAJARINVES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/carousel-img-1.jpg" class="d-block w-110" alt="...">
+                    </div>
+                    <div class="col-8 carousel-text-part">
+                        <p class="title-text-carousel">SPESIAL UNTUK KAMU</p>
+                        <p class="content-text-carousel">Belajar di Kelas Investasi Reksadana,<br>
+                            dapatkan diskon pembelian saham <br>
+                            hingga 20% wow</p>
+                        <p class="footer-text-carousel">Cuan Cuan Consultant</p>
+                        <p class="inform-text-carousel">Kode Voucher</p>
+                        <button type="button" class="btn btn-outline-warning btn-text-carousel">BELAJARINVES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/carousel-img-1.jpg" class="d-block w-110" alt="...">
+                    </div>
+                    <div class="col-8 carousel-text-part">
+                        <p class="title-text-carousel">SPESIAL UNTUK KAMU</p>
+                        <p class="content-text-carousel">Belajar di Kelas Investasi Reksadana,<br>
+                            dapatkan diskon pembelian saham <br>
+                            hingga 20% wow</p>
+                        <p class="footer-text-carousel">Cuan Cuan Consultant</p>
+                        <p class="inform-text-carousel">Kode Voucher</p>
+                        <button type="button" class="btn btn-outline-warning btn-text-carousel">BELAJARINVES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">IT dan Software</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Desain</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Bahasa</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Bisnis dan Marketing</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Akademik</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Pengembangan Diri</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 path">
+                <div class="row">
+                    <div class="col-3 kolom">
+                        <img src="img/slider-img-1.jpg" alt="">
+                    </div>
+                    <div class="col-3 kolom">
+                        <p class="path-title">Crafting Pemulihan Jiwa yang <br> Abadi</p>
+                        <p class="path-creator">VICY ADHA</p>
+                    </div>
+                    <div class="col-2 kolom path-information">
+                        <div><i class="far fa-clock"></i>5j 30m</div>
+                        <div><i class="fas fa-apple-alt"></i>10 Pelajaran</div>
+                        <div><i class="fas fa-graduation-cap"></i>79 Peserta</div>
+                    </div>
+                    <div class="col-2 kolom">
+                        <i class="path-rate">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </i>
+                        <p class="path-textrate">(Dari 12 siswa)</p>
+                    </div>
+                    <div class="col-2 kolom">
+                        <div class="path-button">
+                            <p>GRATIS</p>
+                            <button type="button" class="btn">IKUTI KELAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 path">
+                <div class="row">
+                    <div class="col-3 kolom">
+                        <img src="img/slider-img-1.jpg" alt="">
+                    </div>
+                    <div class="col-3 kolom">
+                        <p class="path-title">Crafting Pemulihan Jiwa yang <br> Abadi</p>
+                        <p class="path-creator">VICY ADHA</p>
+                    </div>
+                    <div class="col-2 kolom path-information">
+                        <div><i class="far fa-clock"></i>5j 30m</div>
+                        <div><i class="fas fa-apple-alt"></i>10 Pelajaran</div>
+                        <div><i class="fas fa-graduation-cap"></i>79 Peserta</div>
+                    </div>
+                    <div class="col-2 kolom">
+                        <i class="path-rate">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </i>
+                        <p class="path-textrate">(Dari 12 siswa)</p>
+                    </div>
+                    <div class="col-2 kolom">
+                        <div class="path-button">
+                            <p>GRATIS</p>
+                            <button type="button" class="btn">IKUTI KELAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 path">
+                <div class="row">
+                    <div class="col-3 kolom">
+                        <img src="img/slider-img-1.jpg" alt="">
+                    </div>
+                    <div class="col-3 kolom">
+                        <p class="path-title">Crafting Pemulihan Jiwa yang <br> Abadi</p>
+                        <p class="path-creator">VICY ADHA</p>
+                    </div>
+                    <div class="col-2 kolom path-information">
+                        <div><i class="far fa-clock"></i>5j 30m</div>
+                        <div><i class="fas fa-apple-alt"></i>10 Pelajaran</div>
+                        <div><i class="fas fa-graduation-cap"></i>79 Peserta</div>
+                    </div>
+                    <div class="col-2 kolom">
+                        <i class="path-rate">
+                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i>
+                        </i>
+                        <p class="path-textrate">(Dari 12 siswa)</p>
+                    </div>
+                    <div class="col-2 kolom">
+                        <div class="path-button">
+                            <p>GRATIS</p>
+                            <button type="button" class="btn">IKUTI KELAS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-expand">
+            <button type="button" class="btn btn-outline-expand">LIHAT SEMUA</button>
+        </div>
+    </div>
+
+
+    <div class="col-6 container-rectangle3" style="display:inline;">
+        <div class="rectangle3">
+            <p class="title-rectangle3">UJI KEMAMPUAN<br> KAMU</p>
+            <img class="image-rectangle3" src="img/rectangle3-img.png">
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-outline-secondary btn-rectangle3">LIHAT SEMUA KUIS</button>
+        </div>
+    </div>
+    <div class="col-12 container-card-horizontal">
+        <div class="card-horizontal">
+            <div class="row">
+                <div class="col-5 container-col-5">
+                    <img src="img/card-horizontal-img.jpg" alt="">
+                </div>
+                <div class="col-7 container-col-7">
+                    <p class="card-horizontal-text">Tes Kepekaan Hati Terhadap <br> Kode Pria</p>
+                    <div class="row">
+                        <div class="col-6 container-creator">
+                            <p class="card-horizontal-creator">RIO ASKA</p>
+                        </div>
+                        <div class="col-6 container-creator">
+                            <i class=" card-rate1">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted"><span> SKOR TERTINGGI:</span><span>HISHSAH (89/100)</span></p>
+                <button type="button" class="btn btn-outline-primary btn-card-kuis">IKUTI KUIS</button>
+            </div>
+        </div>
+        <div class="card-horizontal">
+            <div class="row">
+                <div class="col-5 container-col-5">
+                    <img src="img/card-horizontal-img.jpg" alt="">
+                </div>
+                <div class="col-7 container-col-7">
+                    <p class="card-horizontal-text">Tes Kepekaan Hati Terhadap <br> Kode Pria</p>
+                    <div class="row">
+                        <div class="col-6 container-creator">
+                            <p class="card-horizontal-creator">RIO ASKA</p>
+                        </div>
+                        <div class="col-6 container-creator">
+                            <i class=" card-rate1">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p class="text-muted"><span> SKOR TERTINGGI:</span><span>HISHSAH (89/100)</span></p>
+                <button type="button" class="btn btn-outline btn-card-kuis">IKUTI KUIS</button>
+            </div>
+        </div>
+    </div>
+    <!-- akhir carousel -->
+
+    <!-- awal parallax 1 -->
+    <div class="parallax-1">
+        <div class="parallax1-item">
+            <p class="parallax1-item-title">Menjadi Pengajar</p>
+            <p class="parallax1-item-text">Dapatkan penghasilan. Bagikan keahlianmu, dan bangun citra pribadimu</p>
+            <button type="button" class="btn btn-outline parallax1-btn">BUAT KELAS ONLINE, GRATIS!</button>
+        </div>
+    </div>
+    <!-- akhir parallax 1 -->
+
+    <!-- awal testimonial -->
+    <div class="container container-testimonial">
+        <h2 class="testimonial-title">Pelajar dan Pengajar ❤️️ KelasKita</h2>
+        <p class="testimonial-text">Simak kisah inspiratif mereka yang menggunakan KelasKita, dan Jadilah bagian dari
+            komunitas kami.</p>
+
+        <div class="card-deck card-deck-testimonial">
+            <div class="card card-testimonial1">
+                <div class="card-body card-body-testimonial">
+                    <p class="card-text card-text-testimonial1">“Aplikasi yang sangat bermanfaat bagi saya sobat qismin.
+                        Kelasnya banyak yang
+                        gratis, kelas berbayar juga harganya
+                        terjangkau hehehe”</p>
+                    <h5 class="card-title-testimonial1"><img src="img/testimonial-img1.jpg" alt="">Alvionissa Ardi</h5>
+                </div>
+            </div>
+            <div class="card card-testimonial2">
+                <div class="card-body card-body-testimonial">
+                    <p class="card-text card-text-testimonial2">“Aplikasi yang sangat bermanfaat bagi saya sobat qismin.
+                        Kelasnya banyak yang
+                        gratis, kelas berbayar juga harganya
+                        terjangkau hehehe”
+                    </p>
+                    <h5 class="card-title-testimonial2"><img src="img/testimonial-img1.jpg" alt="">Alvionissa Ardi</h5>
+                </div>
+            </div>
+            <div class="card card-testimonial3">
+                <div class="card-body card-body-testimonial">
+                    <p class="card-text card-text-testimonial3">“Aplikasi yang sangat bermanfaat bagi saya sobat qismin.
+                        Kelasnya banyak yang
+                        gratis, kelas berbayar juga harganya
+                        terjangkau hehehe”</p>
+                    <h5 class="card-title-testimonial3"><img src="img/testimonial-img1.jpg" alt="">Alvionissa Ardi</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir testimonial -->
+
+    <!-- awal buka kampus -->
+    <div class="container container-kampus">
+        <p class="kampus-title">E-Learning untuk Organisasi</p>
+        <p class="kampus-text">Bukakampus menyediakan sistem manajemen pembelajaran siap pakai <br>
+            yang dapat memudahkan anda menyelenggarakan kampus online baik <br>
+            untuk privat maupun untuk publik, sesuai kebutuhanmu.</p>
+        <button type="button" class="btn kampus-btn">BUAT KAMPUS ONLINE</button>
+    </div>
+    <!-- akhir buka kampus -->
+
+    <!-- awal parallax 2 -->
+    <div class="parallax-2">
+        <div class="parallax2-item">
+            <p class="parallax2-item-title">Belajar dimana saja,<span> kapan saja</span></p>
+            <p class="parallax2-item-text">Akses kelas premium secara offline menggunakan aplikasi android KelasKita.
+            </p>
+            <button type="button" class="btn btn-outline parallax2-btn">UNDUH APLIKASI ANDROID</button>
+        </div>
+    </div>
+    <!-- akhir parallax 2 -->
+
+
+
+    <!-- awal footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <h5 class="font-weight-bold mt-3 mb-5">Informasi Perusahaan</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="#!">Karir</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kontak</a>
+                        </li>
+                        <li>
+                            <a href="#!">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-2 mx-auto">
+
+                    <h5 class="font-weight-bold mt-3 mb-5">Pelajari Lebih</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Fitur</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kisah Sukses</a>
+                        </li>
+                        <li>
+                            <a href="#!">Cara Transaksi</a>
+                        </li>
+                        <li>
+                            <a href="#!">Aplikasi Ponsel</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-sm-3 mx-auto">
+                    <h5 class="font-weight-bold mt-3 mb-5">Layanan Lainnya</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Instant E-Learning</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold mt-3 mb-5">Ikuti Kami</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="clearfix w-100 d-md-none">
+
+                <div class="col-md-2 mx-auto">
+                    <h5 class="font-weight-bold mt-3 mb-5">Bantuan</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">support<span>@kelaskita.com</span></a>
+                        </li>
+                        <li>
+                            <a href="#!">+628112262272</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <footer>
+        <div class="container container-footer">
+            <div class="row">
+                <div class="col-3 container-informasi">
+                    <h5 class="footer-title">Informasi Perusahaan</h5>
+                    <p class="footer-text">Tentang Kami</p>
+                    <p class="footer-text">Karir</p>
+                    <p class="footer-text">Kontak</p>
+                    <p class="footer-text">Blog</p>
+                </div>
+                <div class="col-2 container-pelajari">
+                    <h5 class="footer-title">Pelajari Lebih</h5>
+                    <p class="footer-text">Fitur</p>
+                    <p class="footer-text">Kisah Sukses</p>
+                    <p class="footer-text">Cara Transaksi</p>
+                    <p class="footer-text">Menjadi Pengajar</p>
+                    <p class="footer-text">Aplikasi Ponsel</p>
+                </div>
+                <div class="col-3 container-layanan">
+                    <h5 class="footer-title">Layanan Lainnya</h5>
+                    <p class="footer-text">Instant E-Learning</p>
+                </div>
+                <div class="col-2 container-ikuti">
+                    <h5 class=" footer-title">Ikuti Kami</h5>
+                    <p class="footer-text">Facebook</p>
+                    <p class="footer-text">Instagram</p>
+                    <p class="footer-text">Twitter</p>
+                </div>
+                <div class="col-2 container-bantuan">
+                    <h5 class="footer-title">Bantuan</h5>
+                    <p class="footer-text">support@kelaskita.com</p>
+                    <p class="footer-text">+628112262272</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- akhir footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/resCarousel.js"></script>
+    <script src="js/checkbox.js"></script>
+</body>
+
+</html>

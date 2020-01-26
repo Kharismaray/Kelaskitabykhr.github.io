@@ -1,0 +1,135 @@
+/* rectangle */
+.rectangle{
+    margin-top: -10%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.16);
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.rectangle-text1{
+    padding-top: 40px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+.rectangle-text2{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: #707070;
+}
+
+#ck-button {
+    padding: 5px;
+    overflow:auto;
+    display: inline;
+}
+
+label{
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    color: #707070;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #c4c4c4;
+}
+
+#ck-button label input {
+    position:absolute;
+    top:-20px;
+}
+
+label:hover{
+    border-color: #5d5d5d;
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.isSelected {
+    border: 0;
+    background-color: #ffe695;
+}
+
+.btn-carikelas{
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #0088aa;
+    border-color: #0088aa;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.btn-carikelas:hover{
+    background-color: #0088aa;
+}
+
+
+@media (min-width: 320px) and (max-width: 375px){
+.rectangle{
+    height: 750px;
+    width: 310px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 576px){
+.rectangle{
+    margin-top: -100px;
+    height: 620px;
+    width: 370px;
+}
+}
+
+@media (min-width: 577px) and (max-width:767px){
+/* rectangle */
+.rectangle{
+    height: 470px;
+    margin-top: -15%;
+}
+
+.rectangle-text1{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.rectangle-text2{
+    font-size: 14px;
+}
+}
+
+@media (min-width: 768px) and (max-width:992px){
+#ck-button{
+    margin-left: 10px;
+}
+
+.rectangle{
+    height: 430px;
+}    
+}
+
+
+
+@media (min-width:1200px){
+/* rectangle */
+.rectangle{
+    margin-top: -7.5%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#ck-button{
+    margin-left: 10px;
+}
+}

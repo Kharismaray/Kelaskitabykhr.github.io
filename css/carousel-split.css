@@ -1,0 +1,284 @@
+/* carousel */
+.carousel-text-part{
+    background-image: linear-gradient(246deg, #313131, #414141);
+}
+
+.title-text-carousel{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffd800;
+}
+
+.content-text-carousel{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-text-carousel{
+    margin-left: 10px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfbfbf;
+}
+
+.inform-text-carousel{
+    margin-left: 60px;
+    display: inline;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-text-carousel{
+    width: 201px;
+    height: 48px;
+    font-family: Lato;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    letter-spacing: 1.8px;
+    color: #ffd800;
+    border-radius: 10px;
+    border: solid 3px #ffd800;
+}
+
+@media (min-width: 576px) and (max-width:991px){
+
+
+.title-text-carousel{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffd800;
+}
+
+.content-text-carousel{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-text-carousel{
+    margin-left: 40px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfbfbf;
+}
+
+.inform-text-carousel{
+    margin-left: 40px;
+    display: inline;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.btn-text-carousel{
+    width: 201px;
+    height: 48px;
+    font-family: Lato;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    letter-spacing: 1.8px;
+    color: #ffd800;
+    border-radius: 10px;
+    border: solid 3px #ffd800;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+.title-text-carousel{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffd800;
+}
+
+.content-text-carousel{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.inform-text-carousel{
+    margin-left: 300px;
+    display: inline;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-text-carousel{
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfbfbf;
+}
+
+}
+
+@media (min-width:1200px){
+
+.title-text-carousel{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffd800;
+}
+
+.content-text-carousel{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.inform-text-carousel{
+    margin-left: 300px;
+    display: inline;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-text-carousel{
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfbfbf;
+}
+}
+
+
+@media(min-width:1700px){
+
+/* carousel */
+.carousel-text-part{
+    width: 105%;
+    background-image: linear-gradient(246deg, #313131, #414141);
+}
+
+.w-110{
+    width: 105%;
+}
+
+
+.title-text-carousel{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffd800;
+}
+
+.content-text-carousel{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.inform-text-carousel{
+    margin-left: 300px;
+    display: inline;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer-text-carousel{
+    margin-left: 70px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfbfbf;
+}
+}
